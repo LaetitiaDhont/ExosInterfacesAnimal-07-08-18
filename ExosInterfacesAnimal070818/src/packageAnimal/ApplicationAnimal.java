@@ -18,8 +18,12 @@ public class ApplicationAnimal {
 		myDog.setMaladie("Rage");
 		myDog.setEspece("ChienDuPérou");
 		myDog.setNom("Bailey");
-		myDog.setPrenom("Ethan");
-		myDog.setRace("Doberman");
+		myDog.setPrenom("Ethan");		
+		
+		// Getters 
+		
+		System.out.println("Mon chien s'appelle" + " " + myDog.getNom() + " " + myDog.getPrenom() + " " + "Il a " + myDog.getAge() + "ans");
+		System.out.println("Il est de couleur" + " " + myDog.getCouleur() + "C'est un " + myDog.getEspece() + " " + " Il est atteint de la " + myDog.getMaladie() );
 	}
 
 }
